@@ -51,10 +51,21 @@ header{
 
  .extras{
      position: absolute;
-     bottom: -450px;
+     bottom: -700px;
      right: -500px;
      width: 1200px;
      height: 1200px;
      border-radius: 50%;
      background-color: rgb(134, 209, 134);
+ }
+
+ .social-media{
+     position: absolute;
+     right: 500px;
+     top: 40px;
+ }
+
+ .social-media img{
+     display: block;
+     width: 60px;
  }
