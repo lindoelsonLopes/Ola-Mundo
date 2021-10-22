@@ -44,6 +44,12 @@ header{
      margin-right: 15px;
  }
 
+ .menu a:hover{
+     background-color: rgb(183, 243, 183);
+     padding: 5px;
+     color: white;
+ }
+
  section.sobre{
      height: calc(100% - 200px);
      position: relative;
