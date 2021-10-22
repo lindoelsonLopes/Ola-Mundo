@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /*font-family: Verdana, Geneva, Tahoma, sans-serif; -- testando algumas formas de utilizar fonts externas
+*/    
     
 }
 
@@ -19,6 +22,7 @@ html,body{
     height: 100%;
     overflow-y: hidden;
     overflow-x: hidden;
+    
 }
 
 header{
@@ -75,3 +79,18 @@ header{
      display: block;
      width: 60px;
  }
+
+ .text{
+     text-align: center;
+     width: 750px;
+     padding: 50px;
+     font-size: 35px;
+     font-family: 'Rampart One', cursive;
+     
+ }
+
+ .cor{
+     color: rgb(26, 150, 26);
+ }
+
+ 
